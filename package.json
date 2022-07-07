@@ -1,0 +1,38 @@
+{
+  "name": "strata",
+  "version": "1.0.0",
+  "description": "colonial organism simulation",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChoirOfAngles/strata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChoirOfAngles/strata/issues"
+  },
+  "homepage": "https://github.com/ChoirOfAngles/strata#readme",
+  "dependencies": {
+    "parcel": "^2.6.2",
+    "pixi.js": "^6.4.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "querystring-es3": "^0.2.1"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "assets",
+        "staticOutDir": "assets"
+      }
+    ],
+    "watcherGlob": "**"
+  }
+}
